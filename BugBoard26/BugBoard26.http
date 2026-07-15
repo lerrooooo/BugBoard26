@@ -1,0 +1,6 @@
+@BugBoard26_HostAddress = http://localhost:5237
+
+GET {{BugBoard26_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
