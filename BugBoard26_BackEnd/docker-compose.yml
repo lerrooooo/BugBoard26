@@ -1,0 +1,28 @@
+services:
+  db:
+    image: postgres:16
+    container_name: bugboard_db
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=supersegreta
+      - POSTGRES_DB=bugboard26
+    ports:
+      - "5432:5432"
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: bugboard_pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@bugboard.com
+      - PGADMIN_DEFAULT_PASSWORD=admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - db
+    restart: unless-stopped
+
+volumes:
+  dbdata:
