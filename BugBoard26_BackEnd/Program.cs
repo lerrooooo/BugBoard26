@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using BugBoard26_BackEnd.Data;
+using BugBoard26_BackEnd.Models;
+using BugBoard26_BackEnd.Models.Enums;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +13,10 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowReact",
+    options.AddPolicy("AllowFrontend",
         policy =>
         {
-            policy.WithOrigins("http://localhost:5173")
+            policy.WithOrigins("http://localhost:5173", "http://localhost:3000")
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
@@ -50,16 +52,31 @@ builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
+
+    if (!db.Users.Any(u => u.Email == "admin@bugboard.com"))
+    {
+        db.Users.Add(new User
+        {
+            Email = "admin@bugboard.com",
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword("admin"),
+            Type = UserType.Admin
+        });
+        db.SaveChanges();
+    }
+}
+
 
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
 
-app.UseHttpsRedirection();
-
 app.UseStaticFiles();
-app.UseCors("AllowReact");
+app.UseCors("AllowFrontend");
 
 app.UseAuthentication();
 app.UseAuthorization();
