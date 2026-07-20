@@ -135,9 +135,9 @@ namespace BugBoard26_BackEnd.Controllers
         {
             public required string Title { get; set; }
             public string? Description { get; set; }
-            public IssueType Type { get; set; }
-            public Priority Priority { get; set; }
-            public IssueStatus Status { get; set; }
+            public required IssueType Type { get; set; }
+            public required Priority Priority { get; set; }
+            public required IssueStatus Status { get; set; }
             public List<int>? AccessUserIds { get; set; }
             public DateTime? DueDate { get; set; }
         }

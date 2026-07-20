@@ -1,0 +1,7 @@
+﻿C:\Users\lem00\source\repos\lerrooooo\BugBoard26\BugBoard26_BackEnd\BugBoard26.Tests\UnitTest1.cs
+C:\Users\lem00\.nuget\packages\microsoft.net.test.sdk\18.8.1\build\net8.0\Microsoft.NET.Test.Sdk.Program.cs
+C:\Users\lem00\.nuget\packages\microsoft.testplatform.testhost\18.8.1\build\net8.0\x64\testhost.exe
+C:\Users\lem00\.nuget\packages\microsoft.testplatform.testhost\18.8.1\build\net8.0\x64\testhost.dll
+C:\Users\lem00\.nuget\packages\xunit.runner.visualstudio\3.1.5\build\net8.0\xunit.abstractions.dll
+C:\Users\lem00\.nuget\packages\xunit.runner.visualstudio\3.1.5\build\net8.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\lem00\source\repos\lerrooooo\BugBoard26\BugBoard26_BackEnd\BugBoard26.Tests\coverage.opencover.xml

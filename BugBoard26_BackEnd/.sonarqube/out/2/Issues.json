@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilatore Microsoft (R) Visual C#",
+        "version": "5.6.0.0",
+        "fileVersion": "5.6.0-2.26329.109 (35b593bebfcba58f8e78298cef14c2761f5d86c6)",
+        "semanticVersion": "5.6.0",
+        "language": "it-IT"
+      },
+      "results": [
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Il membro GetDb non accede ai dati di istanza e può essere contrassegnato come static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/lem00/source/repos/lerrooooo/BugBoard26/BugBoard26_BackEnd/BugBoard26.Tests/UnitTest1.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 30,
+                  "endLine": 17,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Il membro Login non accede ai dati di istanza e può essere contrassegnato come static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/lem00/source/repos/lerrooooo/BugBoard26/BugBoard26_BackEnd/BugBoard26.Tests/UnitTest1.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 22,
+                  "endLine": 26,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Contrassegnare i membri come static",
+          "fullDescription": "I membri che non accedono ai dati di istanza o non chiamano metodi di istanza possono essere contrassegnati come static. Dopo aver contrassegnato i metodi come static, il compilatore creerà siti di chiamata non virtual per questi membri. Si potrà così ottenere un sensibile miglioramento delle prestazioni per il codice sensibile alle prestazioni.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

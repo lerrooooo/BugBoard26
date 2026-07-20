@@ -1,0 +1,176 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.2.1"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1784544542000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "BugBoard26-Backend"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd"
+    },
+    {
+      "key": "sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "8B5E1BAD-869C-4D75-8EFE-7EE31E6B9C4B,B1388B73-F17C-4154-A871-CDD986E4D2FC,1A5E6379-E174-4AB5-AB72-93A2251082B1"
+    },
+    {
+      "key": "8B5E1BAD-869C-4D75-8EFE-7EE31E6B9C4B.sonar.projectKey",
+      "value": "BugBoard26-Backend:8B5E1BAD-869C-4D75-8EFE-7EE31E6B9C4B"
+    },
+    {
+      "key": "8B5E1BAD-869C-4D75-8EFE-7EE31E6B9C4B.sonar.projectName",
+      "value": "BugBoard26"
+    },
+    {
+      "key": "8B5E1BAD-869C-4D75-8EFE-7EE31E6B9C4B.sonar.projectBaseDir",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd"
+    },
+    {
+      "key": "8B5E1BAD-869C-4D75-8EFE-7EE31E6B9C4B.sonar.working.directory",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "8B5E1BAD-869C-4D75-8EFE-7EE31E6B9C4B.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "8B5E1BAD-869C-4D75-8EFE-7EE31E6B9C4B.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "8B5E1BAD-869C-4D75-8EFE-7EE31E6B9C4B.sonar.sources",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Controllers\\AuthController\\AuthController.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Controllers\\CommentsController\\CommentsController.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Controllers\\IssuesController\\IssuesController.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Controllers\\UsersController\\UsersController.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Data\\AppDbContext.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Migrations\\20260718101247_AggiuntaPrioritaStatoImmagine.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Migrations\\20260718101247_AggiuntaPrioritaStatoImmagine.Designer.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Migrations\\20260718114301_AddComments.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Migrations\\20260718114301_AddComments.Designer.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Migrations\\20260718144519_IssueAccessList.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Migrations\\20260718144519_IssueAccessList.Designer.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Migrations\\20260719115448_IssueDueDate.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Migrations\\20260719115448_IssueDueDate.Designer.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Migrations\\AppDbContextModelSnapshot.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Models\\Comment.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Models\\Dtos\\CreateCommentDto.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Models\\Enums\\IssueStatus.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Models\\Enums\\IssueType.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Models\\Enums\\Priority.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Models\\Enums\\UserType.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Models\\IssueAccess.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Models\\Issues.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Models\\Users.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Program.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\Debug\\net10.0\\BugBoard26.GlobalUsings.g.cs,\"C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs\",C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\Debug\\net10.0\\BugBoard26.AssemblyInfo.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\Debug\\net10.0\\BugBoard26.MvcApplicationPartsAssemblyInfo.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\wwwroot\\uploads\\29c71ca3-984e-42eb-94bb-7160a759b11a.png,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\appsettings.Development.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\appsettings.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.http,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\coverage\\2bebfc41-c5ff-446e-a3b3-48e3a590d214\\coverage.opencover.xml,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\coverage\\4fb0ef19-57cd-47aa-9bef-0f15a2d9eb4f\\coverage.opencover.xml,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\docker-compose.yml,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\Properties\\launchSettings.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\BugBoard26.csproj.nuget.dgspec.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\project.assets.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\bin\\Debug\\net10.0\\appsettings.Development.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\bin\\Debug\\net10.0\\appsettings.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\bin\\Debug\\net10.0\\BugBoard26.deps.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\bin\\Debug\\net10.0\\BugBoard26.runtimeconfig.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\bin\\Debug\\net10.0\\BugBoard26.staticwebassets.endpoints.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\bin\\Debug\\net10.0\\BugBoard26.staticwebassets.runtime.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\Debug\\net10.0\\BugBoard26.sourcelink.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\Debug\\net10.0\\rjimswa.dswa.cache.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\Debug\\net10.0\\rjsmcshtml.dswa.cache.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\Debug\\net10.0\\rjsmrazor.dswa.cache.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\Debug\\net10.0\\rpswa.dswa.cache.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\Debug\\net10.0\\staticwebassets.build.endpoints.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\Debug\\net10.0\\staticwebassets.build.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\obj\\Debug\\net10.0\\staticwebassets.development.json"
+    },
+    {
+      "key": "8B5E1BAD-869C-4D75-8EFE-7EE31E6B9C4B.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "8B5E1BAD-869C-4D75-8EFE-7EE31E6B9C4B.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "8B5E1BAD-869C-4D75-8EFE-7EE31E6B9C4B.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "B1388B73-F17C-4154-A871-CDD986E4D2FC.sonar.projectKey",
+      "value": "BugBoard26-Backend:B1388B73-F17C-4154-A871-CDD986E4D2FC"
+    },
+    {
+      "key": "B1388B73-F17C-4154-A871-CDD986E4D2FC.sonar.projectName",
+      "value": "BugBoard26"
+    },
+    {
+      "key": "B1388B73-F17C-4154-A871-CDD986E4D2FC.sonar.projectBaseDir",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd"
+    },
+    {
+      "key": "B1388B73-F17C-4154-A871-CDD986E4D2FC.sonar.working.directory",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\.sonarqube\\out\\.sonar\\mod1"
+    },
+    {
+      "key": "B1388B73-F17C-4154-A871-CDD986E4D2FC.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "B1388B73-F17C-4154-A871-CDD986E4D2FC.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "B1388B73-F17C-4154-A871-CDD986E4D2FC.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "B1388B73-F17C-4154-A871-CDD986E4D2FC.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\.sonarqube\\out\\1"
+    },
+    {
+      "key": "B1388B73-F17C-4154-A871-CDD986E4D2FC.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\.sonarqube\\out\\1\\Issues.json"
+    },
+    {
+      "key": "B1388B73-F17C-4154-A871-CDD986E4D2FC.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\.sonarqube\\out\\1\\Telemetry.json"
+    },
+    {
+      "key": "1A5E6379-E174-4AB5-AB72-93A2251082B1.sonar.projectKey",
+      "value": "BugBoard26-Backend:1A5E6379-E174-4AB5-AB72-93A2251082B1"
+    },
+    {
+      "key": "1A5E6379-E174-4AB5-AB72-93A2251082B1.sonar.projectName",
+      "value": "BugBoard26.Tests"
+    },
+    {
+      "key": "1A5E6379-E174-4AB5-AB72-93A2251082B1.sonar.projectBaseDir",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests"
+    },
+    {
+      "key": "1A5E6379-E174-4AB5-AB72-93A2251082B1.sonar.working.directory",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\.sonarqube\\out\\.sonar\\mod2"
+    },
+    {
+      "key": "1A5E6379-E174-4AB5-AB72-93A2251082B1.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "1A5E6379-E174-4AB5-AB72-93A2251082B1.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "1A5E6379-E174-4AB5-AB72-93A2251082B1.sonar.tests",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests\\obj\\BugBoard26.Tests.csproj.nuget.dgspec.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests\\obj\\project.assets.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests\\bin\\Debug\\net10.0\\appsettings.Development.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests\\bin\\Debug\\net10.0\\appsettings.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests\\bin\\Debug\\net10.0\\BugBoard26.deps.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests\\bin\\Debug\\net10.0\\BugBoard26.runtimeconfig.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests\\bin\\Debug\\net10.0\\BugBoard26.staticwebassets.endpoints.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests\\bin\\Debug\\net10.0\\BugBoard26.staticwebassets.runtime.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests\\bin\\Debug\\net10.0\\BugBoard26.Tests.deps.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests\\bin\\Debug\\net10.0\\BugBoard26.Tests.runtimeconfig.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests\\obj\\Debug\\net10.0\\BugBoard26.Tests.sourcelink.json,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests\\UnitTest1.cs,C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\BugBoard26.Tests\\coverage.opencover.xml"
+    },
+    {
+      "key": "1A5E6379-E174-4AB5-AB72-93A2251082B1.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\.sonarqube\\out\\2"
+    },
+    {
+      "key": "1A5E6379-E174-4AB5-AB72-93A2251082B1.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\.sonarqube\\out\\2\\Issues.json"
+    },
+    {
+      "key": "1A5E6379-E174-4AB5-AB72-93A2251082B1.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\lem00\\source\\repos\\lerrooooo\\BugBoard26\\BugBoard26_BackEnd\\.sonarqube\\out\\2\\Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://localhost:9000"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}

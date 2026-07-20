@@ -14,11 +14,17 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.10">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
   </ItemGroup>
-
+	<ItemGroup>
+		<Compile Remove="BugBoard26.Tests\**" />
+		<Content Remove="BugBoard26.Tests\**" />
+		<EmbeddedResource Remove="BugBoard26.Tests\**" />
+		<None Remove="BugBoard26.Tests\**" />
+	</ItemGroup>
 </Project>

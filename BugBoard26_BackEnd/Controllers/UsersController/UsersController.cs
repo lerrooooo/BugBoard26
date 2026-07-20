@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using BugBoard26_BackEnd.Data;
 using BugBoard26_BackEnd.Models;
 using BugBoard26_BackEnd.Models.Enums;
+using System.Text.Json.Serialization;
+
 
 namespace BugBoard26_BackEnd.Controllers
 {
@@ -19,7 +21,11 @@ namespace BugBoard26_BackEnd.Controllers
             _context = context;
         }
 
-        public record CreateUserRequest(string Email, string Password, UserType Type);
+        public record CreateUserRequest(
+            string Email,
+            string Password,
+            [property: JsonRequired] UserType Type
+            );
 
         [HttpPost]
         public async Task<IActionResult> CreateUser(CreateUserRequest request)
