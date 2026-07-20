@@ -39,6 +39,18 @@ export default function LoginPage({ onLoginSuccess }) {
 
     return (
         <div style={styles.page}>
+            <style>{`
+                .bugboard-field {
+                    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+                }
+                .bugboard-field:hover {
+                    border-color: #b3b3b3;
+                }
+                .bugboard-field:focus {
+                    border-color: #337ab7;
+                    box-shadow: 0 0 0 3px rgba(51, 122, 183, 0.15);
+                }
+            `}</style>
             <div style={styles.card}>
                 <div style={styles.header}>
                     <h1 style={styles.logoText}>BugBoard</h1>
@@ -57,6 +69,7 @@ export default function LoginPage({ onLoginSuccess }) {
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         style={styles.input}
+                        className="bugboard-field"
                         placeholder="tu@esempio.dev"
                     />
 
@@ -72,6 +85,7 @@ export default function LoginPage({ onLoginSuccess }) {
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                             style={{ ...styles.input, marginBottom: 0, paddingRight: 64 }}
+                            className="bugboard-field"
                             placeholder="••••••••"
                         />
                         <button
@@ -151,9 +165,9 @@ const styles = {
         marginBottom: 5,
     },
     input: {
-        border: "1px solid #ccc",
-        borderRadius: 4,
-        padding: "9px 10px",
+        border: "1px solid #d9d9d9",
+        borderRadius: 8,
+        padding: "10px 12px",
         color: "#222",
         fontSize: 14,
         fontFamily: "inherit",
@@ -161,6 +175,7 @@ const styles = {
         outline: "none",
         width: "100%",
         boxSizing: "border-box",
+        background: "#fafafa",
     },
     passwordWrap: {
         position: "relative",

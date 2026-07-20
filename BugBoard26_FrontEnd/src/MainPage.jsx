@@ -503,7 +503,7 @@ export default function MainPage({ onLogout }) {
                     <div style={styles.modal} onClick={(e) => e.stopPropagation()}>
                         <div style={styles.modalHeader}>
                             <h2 style={styles.sectionTitle}>
-                                <span style={styles.labelIndex}>🔒</span> cambia password
+                                <span style={styles.labelIndex}></span> cambia password
                             </h2>
                             <button onClick={closePasswordModal} style={styles.closeBtn}>✕</button>
                         </div>
@@ -961,7 +961,7 @@ export default function MainPage({ onLogout }) {
                                                 <span style={{ color: prioInfo.fg }}>● {prioInfo.label}</span>
                                                 <span style={styles.assignedTag}>
                                                     {issue.viewers?.length
-                                                        ? `→ ${issue.viewers.map((v) => v.email).join(", ")}`
+                                                        ? ` ${issue.viewers.map((v) => v.email).join(", ")}`
                                                         : "nessuno (solo admin)"}
                                                 </span>
                                                 {issue.dueDate && (
@@ -977,7 +977,7 @@ export default function MainPage({ onLogout }) {
                                                 )}
                                                 {canEditIssue(issue) && (
                                                     <button onClick={() => openEditModal(issue)} style={styles.editBtn}>
-                                                        ✎ modifica
+                                                        modifica
                                                     </button>
                                                 )}
                                                 {isAdmin && (
@@ -996,7 +996,7 @@ export default function MainPage({ onLogout }) {
                                             )}
 
                                             <button onClick={() => toggleComments(issue.id)} style={styles.commentsToggle}>
-                                                💬 {expandedIssueId === issue.id ? "nascondi commenti" : "commenti"}
+                                                {expandedIssueId === issue.id ? "nascondi commenti" : "commenti"}
                                                 {commentsByIssue[issue.id]?.items?.length
                                                     ? ` (${commentsByIssue[issue.id].items.length})`
                                                     : ""}
