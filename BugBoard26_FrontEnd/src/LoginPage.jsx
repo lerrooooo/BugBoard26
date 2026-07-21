@@ -174,7 +174,7 @@ const styles = {
         marginBottom: 16,
         outline: "none",
         width: "100%",
-        boxSizing: "border-box",
+        boxSizing: "border-box", 
         background: "#fafafa",
     },
     passwordWrap: {

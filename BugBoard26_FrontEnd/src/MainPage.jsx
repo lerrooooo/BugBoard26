@@ -503,7 +503,7 @@ export default function MainPage({ onLogout }) {
                     <div style={styles.modal} onClick={(e) => e.stopPropagation()}>
                         <div style={styles.modalHeader}>
                             <h2 style={styles.sectionTitle}>
-                                <span style={styles.labelIndex}></span> cambia password
+                                <span style={styles.labelIndex}></span> cambia password 
                             </h2>
                             <button onClick={closePasswordModal} style={styles.closeBtn}>✕</button>
                         </div>
