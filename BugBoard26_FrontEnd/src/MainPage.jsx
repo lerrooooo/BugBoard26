@@ -504,7 +504,7 @@ export default function MainPage({ onLogout }) {
                         <div style={styles.modalHeader}>
                             <h2 style={styles.sectionTitle}>
                                 <span style={styles.labelIndex}></span> cambia password 
-                            </h2>
+                            </h2> 
                             <button onClick={closePasswordModal} style={styles.closeBtn}>✕</button>
                         </div>
                         <form onSubmit={handleChangePassword} style={styles.form}>
