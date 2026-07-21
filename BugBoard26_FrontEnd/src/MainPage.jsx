@@ -966,13 +966,13 @@ export default function MainPage({ onLogout }) {
                                                 </span>
                                                 {issue.dueDate && (
                                                     <span style={{ ...styles.dueTag, ...(isOverdue ? styles.dueTagOverdue : {}) }}>
-                                                        {isOverdue ? "⚠ scaduta il " : "⏳ scade il "}
+                                                        {isOverdue ? " scaduta il " : " scade il "}
                                                         {new Date(issue.dueDate).toLocaleDateString("it-IT")}
                                                     </span>
                                                 )}
                                                 {fullImgUrl && (
                                                     <button onClick={() => setLightboxUrl(fullImgUrl)} style={styles.imageLink}>
-                                                        📎 {issue.imageUrl.split("/").pop()}
+                                                        {issue.imageUrl.split("/").pop()}
                                                     </button>
                                                 )}
                                                 {canEditIssue(issue) && (
@@ -986,7 +986,7 @@ export default function MainPage({ onLogout }) {
                                                         disabled={deletingId === issue.id}
                                                         style={{ ...styles.deleteBtn, opacity: deletingId === issue.id ? 0.5 : 1 }}
                                                     >
-                                                        {deletingId === issue.id ? "elimino…" : "🗑 elimina"}
+                                                        {deletingId === issue.id ? "elimino…" : " elimina"}
                                                     </button>
                                                 )}
                                             </div>
